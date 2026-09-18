@@ -604,6 +604,26 @@ address {
   font-family: var(--font-body);
 }
 
+.pizza-sizes {
+  margin: -0.45rem 0 0.85rem;
+  color: var(--gold);
+  font-family: var(--font-condensed);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.menu-pizzas .menu-prices {
+  flex-direction: row;
+  gap: 0.45rem;
+}
+
+.menu-pizzas .menu-prices span + span::before {
+  content: "·";
+  margin-right: 0.45rem;
+  color: rgba(212, 160, 23, 0.7);
+}
+
 .story {
   margin-top: 1.5rem;
   background: var(--char);
@@ -911,10 +931,100 @@ address {
   opacity: 0.85;
 }
 
-.copyright {
-  margin-top: 1.4rem;
-  color: #777;
-  font-size: 0.85rem;
+.error-page {
+  padding-bottom: 2rem;
+}
+
+.error-page-main {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.1rem;
+}
+
+.error-page-main .error-brand {
+  margin-bottom: 1.6rem;
+  text-decoration: none;
+  align-self: center;
+}
+
+.error-page-main h1 {
+  font-size: clamp(2rem, 8vw, 3.4rem);
+  margin: 0.2rem 0 0.8rem;
+}
+
+.error-page-main .lede,
+.error-lede {
+  max-width: min(18rem, 100%) !important;
+  width: 100%;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: break-word;
+}
+
+.error-page-main .hero-actions {
+  align-self: center;
+}
+
+.legal {
+  padding: 5.5rem 1.1rem 2.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.legal h1 {
+  font-size: clamp(2rem, 7vw, 3.4rem);
+  margin: 0.15rem 0 0.8rem;
+}
+
+.legal .lede {
+  margin-left: 0;
+  margin-bottom: 2rem;
+  max-width: none;
+}
+
+.legal h2 {
+  font-size: 1.2rem;
+  color: var(--gold);
+  margin: 1.8rem 0 0.6rem;
+}
+
+.legal p,
+.legal li {
+  color: var(--off-white);
+}
+
+.legal a {
+  color: var(--gold);
+}
+
+.legal .btn {
+  margin-top: 0.4rem;
+  color: var(--white);
+}
+
+.legal .btn:hover {
+  color: var(--white);
+}
+
+.legal-updated {
+  margin-top: 2rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.copyright a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.copyright a:hover {
+  color: var(--gold);
 }
 
 .footer-credit {
@@ -1021,6 +1131,20 @@ address {
     grid-template-columns: 1fr 1fr;
   }
 
+  .menu-pizzas {
+    grid-column: 1 / -1;
+  }
+
+  .menu-pizzas ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.6rem;
+  }
+
+  .menu-pizzas li {
+    padding: 0.5rem 0;
+  }
+
   .visit-grid,
   .contact-grid {
     grid-template-columns: 1fr 1fr;
@@ -1053,6 +1177,7 @@ address {
   .visit,
   .contact,
   .faq,
+  .legal,
   .site-footer {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1081,5 +1206,9 @@ address {
 
   .menu-categories {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menu-pizzas ul {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

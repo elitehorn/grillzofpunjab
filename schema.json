@@ -7,7 +7,7 @@
         "CafeOrCoffeeShop"
       ],
       "additionalType": "https://schema.org/VegetarianRestaurant",
-      "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant",
+      "@id": "https://grillzofpunjab.com/#restaurant",
       "name": "Grillz of Punjab",
       "alternateName": [
         "Grillz of Punjab Restro and Cafe",
@@ -16,21 +16,21 @@
       ],
       "legalName": "Grillz of Punjab",
       "description": "Pure vegetarian restro and cafe in Dhampur, District Bijnor, Uttar Pradesh. Indian, Punjabi tandoori and Chinese food, thali combos, pizza and cafe drinks, with free home delivery on orders above Rs. 499.",
-      "url": "https://elitehorn.github.io/grillzofpunjab/",
+      "url": "https://grillzofpunjab.com/",
       "image": [
-        "https://elitehorn.github.io/grillzofpunjab/assets/og-image.jpg",
-        "https://elitehorn.github.io/grillzofpunjab/assets/banner.png",
-        "https://elitehorn.github.io/grillzofpunjab/assets/paneer.jpg",
-        "https://elitehorn.github.io/grillzofpunjab/assets/malai-chaap.jpg",
-        "https://elitehorn.github.io/grillzofpunjab/assets/special-meal.png",
-        "https://elitehorn.github.io/grillzofpunjab/assets/chhole-bhature.png",
-        "https://elitehorn.github.io/grillzofpunjab/assets/interior.jpg"
+        "https://grillzofpunjab.com/assets/og-image.jpg",
+        "https://grillzofpunjab.com/assets/banner.png",
+        "https://grillzofpunjab.com/assets/paneer.jpg",
+        "https://grillzofpunjab.com/assets/malai-chaap.jpg",
+        "https://grillzofpunjab.com/assets/special-meal.png",
+        "https://grillzofpunjab.com/assets/chhole-bhature.png",
+        "https://grillzofpunjab.com/assets/interior.jpg"
       ],
       "logo": {
         "@type": "ImageObject",
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#logo",
-        "url": "https://elitehorn.github.io/grillzofpunjab/assets/logo.png",
-        "contentUrl": "https://elitehorn.github.io/grillzofpunjab/assets/logo.png",
+        "@id": "https://grillzofpunjab.com/#logo",
+        "url": "https://grillzofpunjab.com/assets/logo.png",
+        "contentUrl": "https://grillzofpunjab.com/assets/logo.png",
         "width": 512,
         "height": 512,
         "caption": "Grillz of Punjab logo"
@@ -67,10 +67,10 @@
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 29.3089,
-        "longitude": 78.5106
+        "latitude": 29.3105182,
+        "longitude": 78.5063213
       },
-      "hasMap": "https://maps.google.com/?q=Opposite+Axis+Bank+Punjabi+Colony+Dhampur+Bijnor",
+      "hasMap": "https://www.google.com/maps/place/Grillz+of+Punjab/@29.3105182,78.5063213,17z/data=!4m6!3m5!1s0x390bc93e9f3c8991:0x8ad53d85c044c5cb!8m2!3d29.3105182!4d78.5063213!16s%2Fg%2F11z8m25y0_",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
@@ -106,9 +106,9 @@
         "smokingAllowed": false,
       "acceptsReservations": false,
       "hasMenu": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#menu"
+        "@id": "https://grillzofpunjab.com/#menu"
       },
-      "menu": "https://elitehorn.github.io/grillzofpunjab/#menu",
+      "menu": "https://grillzofpunjab.com/#menu",
       "makesOffer": {
         "@type": "Offer",
         "name": "Free home delivery",
@@ -163,12 +163,13 @@
       ],
       "sameAs": [
         "https://www.zomato.com/dhampur/grillz-of-punjab-dhampur-locality",
-        "https://www.instagram.com/grillzofpunjab_dhampur/"
+        "https://www.instagram.com/grillzofpunjab_dhampur/",
+        "https://www.google.com/maps/place/Grillz+of+Punjab/@29.3105182,78.5063213,17z/data=!4m6!3m5!1s0x390bc93e9f3c8991:0x8ad53d85c044c5cb!8m2!3d29.3105182!4d78.5063213!16s%2Fg%2F11z8m25y0_"
       ]
     },
     {
       "@type": "Menu",
-      "@id": "https://elitehorn.github.io/grillzofpunjab/#menu",
+      "@id": "https://grillzofpunjab.com/#menu",
       "name": "Grillz of Punjab Menu",
       "description": "100% vegetarian menu: tandoori starters, chaap, paneer gravies, Chinese, pizza, thali combos and cafe drinks. Extra cheese Rs. 20, extra butter Rs. 10.",
       "inLanguage": "en-IN",
@@ -1640,12 +1641,12 @@
           ]
         }
       ],
-      "url": "https://elitehorn.github.io/grillzofpunjab/#menu"
+      "url": "https://grillzofpunjab.com/#menu"
     },
     {
       "@type": "WebSite",
-      "@id": "https://elitehorn.github.io/grillzofpunjab/#website",
-      "url": "https://elitehorn.github.io/grillzofpunjab/",
+      "@id": "https://grillzofpunjab.com/#website",
+      "url": "https://grillzofpunjab.com/",
       "name": "Grillz of Punjab",
       "alternateName": "Grillz of Punjab Restro and Cafe",
       "inLanguage": [
@@ -1654,37 +1655,37 @@
       ],
       "description": "Official website of Grillz of Punjab, a pure veg restro and cafe in Dhampur, Bijnor.",
       "publisher": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+        "@id": "https://grillzofpunjab.com/#restaurant"
       },
       "about": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+        "@id": "https://grillzofpunjab.com/#restaurant"
       },
       "copyrightHolder": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+        "@id": "https://grillzofpunjab.com/#restaurant"
       },
       "copyrightYear": 2026
     },
     {
       "@type": "WebPage",
-      "@id": "https://elitehorn.github.io/grillzofpunjab/#webpage",
-      "url": "https://elitehorn.github.io/grillzofpunjab/",
+      "@id": "https://grillzofpunjab.com/#webpage",
+      "url": "https://grillzofpunjab.com/",
       "name": "Grillz of Punjab | Pure Veg Restaurant in Dhampur",
       "description": "Pure veg Indian, tandoori and Chinese restaurant in Dhampur, Bijnor. Menu, hours, directions, and free delivery above Rs. 499.",
       "inLanguage": "en-IN",
       "isPartOf": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#website"
+        "@id": "https://grillzofpunjab.com/#website"
       },
       "about": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+        "@id": "https://grillzofpunjab.com/#restaurant"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://elitehorn.github.io/grillzofpunjab/assets/og-image.jpg",
+        "url": "https://grillzofpunjab.com/assets/og-image.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
-        "@id": "https://elitehorn.github.io/grillzofpunjab/#breadcrumb"
+        "@id": "https://grillzofpunjab.com/#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -1700,38 +1701,38 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://elitehorn.github.io/grillzofpunjab/#breadcrumb",
+      "@id": "https://grillzofpunjab.com/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://elitehorn.github.io/grillzofpunjab/"
+          "item": "https://grillzofpunjab.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Menu",
-          "item": "https://elitehorn.github.io/grillzofpunjab/#menu"
+          "item": "https://grillzofpunjab.com/#menu"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Visit",
-          "item": "https://elitehorn.github.io/grillzofpunjab/#visit"
+          "item": "https://grillzofpunjab.com/#visit"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Contact",
-          "item": "https://elitehorn.github.io/grillzofpunjab/#contact"
+          "item": "https://grillzofpunjab.com/#contact"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://elitehorn.github.io/grillzofpunjab/#faq",
-      "url": "https://elitehorn.github.io/grillzofpunjab/#faq",
+      "@id": "https://grillzofpunjab.com/#faq",
+      "url": "https://grillzofpunjab.com/#faq",
       "mainEntity": [
         {
           "@type": "Question",
