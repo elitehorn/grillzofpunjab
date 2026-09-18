@@ -1,0 +1,36 @@
+# Grillz of Punjab — https://elitehorn.github.io/grillzofpunjab/
+User-agent: *
+Allow: /
+Disallow: /schema.json
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://elitehorn.github.io/grillzofpunjab/sitemap.xml

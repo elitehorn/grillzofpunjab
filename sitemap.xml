@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://elitehorn.github.io/grillzofpunjab/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://elitehorn.github.io/grillzofpunjab/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elitehorn.github.io/grillzofpunjab/" />
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/og-image.jpg</image:loc>
+      <image:title>Grillz of Punjab — Pure Veg Restro and Cafe in Dhampur</image:title>
+      <image:caption>Pure vegetarian Indian, tandoori and Chinese restaurant in Dhampur, Bijnor</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/banner.png</image:loc>
+      <image:title>Grillz of Punjab banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/paneer.jpg</image:loc>
+      <image:title>Paneer Tikka</image:title>
+      <image:caption>Paneer tikka from the clay oven at Grillz of Punjab, Dhampur</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/malai-chaap.jpg</image:loc>
+      <image:title>Malai Chaap</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/special-meal.png</image:loc>
+      <image:title>Special Meal Thali</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/chhole-bhature.png</image:loc>
+      <image:title>Chhole Bhature</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/interior.jpg</image:loc>
+      <image:title>Dining room at Grillz of Punjab</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elitehorn.github.io/grillzofpunjab/assets/logo.png</image:loc>
+      <image:title>Grillz of Punjab logo</image:title>
+    </image:image>
+  </url>
+</urlset>

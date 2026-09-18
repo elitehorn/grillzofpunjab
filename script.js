@@ -91,3 +91,55 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     smoothScrollTo(target);
   });
 });
+
+function initFaq() {
+  const list = document.querySelector(".faq-list");
+  const items = [...document.querySelectorAll(".faq-item")];
+  if (!list || !items.length) return;
+
+  items.forEach((item) => {
+    if (item.hasAttribute("open")) item.classList.add("is-open");
+  });
+  list.offsetHeight;
+  list.classList.add("faq-ready");
+
+  function closeItem(item) {
+    if (!item.classList.contains("is-open")) return;
+    item.classList.remove("is-open");
+
+    const finish = () => {
+      if (!item.classList.contains("is-open")) {
+        item.removeAttribute("open");
+      }
+    };
+
+    if (prefersReducedMotion()) {
+      finish();
+      return;
+    }
+
+    window.setTimeout(finish, 420);
+  }
+
+  function openItem(item) {
+    items.forEach((other) => {
+      if (other !== item) closeItem(other);
+    });
+    item.setAttribute("open", "");
+    item.offsetHeight;
+    item.classList.add("is-open");
+  }
+
+  items.forEach((item) => {
+    item.querySelector("summary")?.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (item.classList.contains("is-open")) {
+        closeItem(item);
+      } else {
+        openItem(item);
+      }
+    });
+  });
+}
+
+initFaq();

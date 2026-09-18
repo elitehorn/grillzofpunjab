@@ -442,10 +442,15 @@ body.nav-open .site-nav {
   margin-top: 1.4rem;
 }
 
+address {
+  font-style: normal;
+}
+
 .signatures,
 .menu,
 .visit,
-.contact {
+.contact,
+.faq {
   padding: 3.2rem 1.1rem 1.5rem;
   max-width: var(--max);
   margin: 0 auto;
@@ -724,6 +729,99 @@ body.nav-open .site-nav {
   color: var(--muted);
 }
 
+.faq-list {
+  display: grid;
+  gap: 0.75rem;
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: var(--char);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--red);
+  padding: 0 1.1rem;
+}
+
+.highlight time {
+  color: inherit;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  padding: 1rem 0;
+}
+
+.faq-item summary:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  flex-shrink: 0;
+  color: var(--gold);
+  font-family: var(--font-condensed);
+  font-size: 1.35rem;
+  line-height: 1;
+  transition: transform 0.35s ease;
+}
+
+.faq-item.is-open summary::after,
+.faq-list:not(.faq-ready) .faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq-body {
+  display: grid;
+  grid-template-rows: 0fr;
+}
+
+.faq-item.is-open .faq-body,
+.faq-list:not(.faq-ready) .faq-item[open] .faq-body {
+  grid-template-rows: 1fr;
+}
+
+.faq-ready .faq-body {
+  transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-ready .faq-body,
+  .faq-item summary::after {
+    transition: none;
+  }
+}
+
+.faq-body > * {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.faq-item p {
+  margin: 0;
+  padding-bottom: 1rem;
+  color: var(--off-white);
+}
+
+.faq-item a {
+  color: var(--gold);
+}
+
 .site-footer {
   padding: 2.4rem 1.1rem 2rem;
   border-top: 2px solid var(--red);
@@ -762,9 +860,15 @@ body.nav-open .site-nav {
 }
 
 .footer-brand p,
-.footer-meta p {
+.footer-meta p,
+.footer-meta address {
   margin: 0.15rem 0;
   color: var(--muted);
+}
+
+.visit-card address {
+  margin: 0 0 0.7rem;
+  line-height: 1.55;
 }
 
 .footer-brand em {
@@ -781,17 +885,30 @@ body.nav-open .site-nav {
 
 .social {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  gap: 1.15rem;
   margin-top: 0.7rem !important;
 }
 
 .social a {
-  color: var(--white);
-  font-family: var(--font-condensed);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.social-icon img,
+.social-icon svg {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  display: block;
+}
+
+.social-icon:hover img {
+  opacity: 0.85;
 }
 
 .copyright {
@@ -838,7 +955,7 @@ body.nav-open .site-nav {
   bottom: 0;
   z-index: 50;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   min-height: var(--bar-h);
   padding-bottom: env(safe-area-inset-bottom, 0px);
   background: #000;
@@ -858,6 +975,12 @@ body.nav-open .site-nav {
 .sticky-bar a:nth-child(2) {
   background: var(--red);
   color: #fff;
+}
+
+.sticky-bar .sticky-zomato img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
 }
 
 @media (min-width: 420px) {
@@ -929,6 +1052,7 @@ body.nav-open .site-nav {
   .menu,
   .visit,
   .contact,
+  .faq,
   .site-footer {
     padding-left: 2rem;
     padding-right: 2rem;

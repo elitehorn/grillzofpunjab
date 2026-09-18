@@ -1,0 +1,1787 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Restaurant",
+        "CafeOrCoffeeShop"
+      ],
+      "additionalType": "https://schema.org/VegetarianRestaurant",
+      "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant",
+      "name": "Grillz of Punjab",
+      "alternateName": [
+        "Grillz of Punjab Restro and Cafe",
+        "ग्रिल्ज़ ऑफ़ पंजाब",
+        "Grillz of Punjab Dhampur"
+      ],
+      "legalName": "Grillz of Punjab",
+      "description": "Pure vegetarian restro and cafe in Dhampur, District Bijnor, Uttar Pradesh. Indian, Punjabi tandoori and Chinese food, thali combos, pizza and cafe drinks, with free home delivery on orders above Rs. 499.",
+      "url": "https://elitehorn.github.io/grillzofpunjab/",
+      "image": [
+        "https://elitehorn.github.io/grillzofpunjab/assets/og-image.jpg",
+        "https://elitehorn.github.io/grillzofpunjab/assets/banner.png",
+        "https://elitehorn.github.io/grillzofpunjab/assets/paneer.jpg",
+        "https://elitehorn.github.io/grillzofpunjab/assets/malai-chaap.jpg",
+        "https://elitehorn.github.io/grillzofpunjab/assets/special-meal.png",
+        "https://elitehorn.github.io/grillzofpunjab/assets/chhole-bhature.png",
+        "https://elitehorn.github.io/grillzofpunjab/assets/interior.jpg"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#logo",
+        "url": "https://elitehorn.github.io/grillzofpunjab/assets/logo.png",
+        "contentUrl": "https://elitehorn.github.io/grillzofpunjab/assets/logo.png",
+        "width": 512,
+        "height": 512,
+        "caption": "Grillz of Punjab logo"
+      },
+      "telephone": [
+        "+91-63953-66055",
+        "+91-74549-51842"
+      ],
+      "priceRange": "₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, UPI",
+      "servesCuisine": [
+        "Indian",
+        "Punjabi",
+        "North Indian",
+        "Tandoori",
+        "Chinese",
+        "Pizza",
+        "Cafe",
+        "Vegetarian"
+      ],
+      "slogan": "Good Food, Good Mood, Great Memories",
+      "knowsLanguage": [
+        "en-IN",
+        "hi"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Opposite Axis Bank, Near Punjabi Colony",
+        "addressLocality": "Dhampur",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "246761",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.3089,
+        "longitude": 78.5106
+      },
+      "hasMap": "https://maps.google.com/?q=Opposite+Axis+Bank+Punjabi+Colony+Dhampur+Bijnor",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "12:00",
+          "closes": "23:00"
+        }
+      ],
+      "openingHours": "Mo-Su 12:00-23:00",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Dhampur"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bijnor"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Uttar Pradesh"
+        }
+      ],
+      "publicAccess": true,
+        "smokingAllowed": false,
+      "acceptsReservations": false,
+      "hasMenu": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#menu"
+      },
+      "menu": "https://elitehorn.github.io/grillzofpunjab/#menu",
+      "makesOffer": {
+        "@type": "Offer",
+        "name": "Free home delivery",
+        "description": "Free home delivery on orders above Rs. 499. Call or WhatsApp to order.",
+        "price": "0",
+        "priceCurrency": "INR",
+        "eligibleTransactionVolume": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "minPrice": "499"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Dhampur"
+        }
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-63953-66055",
+          "contactType": "customer service",
+          "availableLanguage": [
+            "Hindi",
+            "English"
+          ],
+          "areaServed": "IN",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "12:00",
+            "closes": "23:00"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-74549-51842",
+          "contactType": "customer support",
+          "availableLanguage": [
+            "Hindi",
+            "English"
+          ],
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.zomato.com/dhampur/grillz-of-punjab-dhampur-locality",
+        "https://www.instagram.com/grillzofpunjab_dhampur/"
+      ]
+    },
+    {
+      "@type": "Menu",
+      "@id": "https://elitehorn.github.io/grillzofpunjab/#menu",
+      "name": "Grillz of Punjab Menu",
+      "description": "100% vegetarian menu: tandoori starters, chaap, paneer gravies, Chinese, pizza, thali combos and cafe drinks. Extra cheese Rs. 20, extra butter Rs. 10.",
+      "inLanguage": "en-IN",
+      "hasMenuSection": [
+        {
+          "@type": "MenuSection",
+          "name": "Tandoori Starters",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Tandoori Chaap",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "100",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "170",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Malai Chaap",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "House special from the clay oven.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "100",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "170",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Afghani Chaap",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "100",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "170",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Achaari Chaap",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "100",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "170",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Tikka",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Marinated cottage cheese from the tandoor.",
+              "offers": {
+                "@type": "Offer",
+                "price": "230",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Achaari Paneer Tikka",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "230",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Malai Paneer Tikka",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "250",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Fries & Momos",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Salted Fries",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "80",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Masala Fries",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "100",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veg Steam Momos",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "90",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Steam Momos",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "100",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veg Fried Momos",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "100",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Fried Momos",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "120",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veg Kurkure Momos",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "110",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Kurkure Momos",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "140",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Chilli Specials",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Chilli Potato",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "130",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Honey Chilli Potato",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "150",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Chilli Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "160",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veg Manchoorian",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "130",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Noodles & Pasta",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Veg Noodles",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "120",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Hakka Noodles",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "140",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Schezwan Noodles",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "140",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Singapuri Noodles",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "130",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Noodles",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "150",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Red Sauce Pasta",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "140",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "White Sauce Pasta",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "160",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Cafe Specials",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Masala Tea",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "30",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Hot Coffee",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "40",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Cold Coffee",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "80",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Chocolate Shake",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "140",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Oreo Shake",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "140",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Burgers & Garlic Bread",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Aalu Tikki Burger",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "50",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Crispy Veggie Burger",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "60",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Double Cheese Burger",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "80",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Special Burger",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "95",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Garlic Bread Sticks",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "115",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Stuffed Garlic Bread",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "155",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Paneer & Gravy",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Butter Masala",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "150",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Shahi Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Kadhai Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Mughlai Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Lababdar",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Matar Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "130",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Do Pyaza",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "230",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Mushroom Paneer Masala",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "160",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "250",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Chaap Specials",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Chaap Butter Masala",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "210",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Kadhai Soya Chaap",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "130",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "220",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Dal",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Dal Tadka",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "110",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "200",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Dal Makhani",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "140",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "220",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Vegetables & Mushroom",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Mix Veg",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "120",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "240",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veg Jaipuri",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "120",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "220",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Jeera Aalu",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "80",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "150",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Mushroom Masala",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "120",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "200",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Mushroom Do Pyaza",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "130",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Half"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "210",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Full"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Rice & Sides",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Plain Rice",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "100",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Jeera Rice",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "110",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veg Biryani With Raita",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "210",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Boondi Raita",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "100",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Mix Raita",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "120",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Roti",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Plain Roti",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "10",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Rumali Roti",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "15",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Naan",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Plain Naan",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "30",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Butter Naan",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "40",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Garlic Naan",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "60",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Chur Chur Naan",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "60",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Naan",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "80",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Stuffed Naan",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "90",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Paratha",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Laccha Paratha",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "40",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Aalu Paratha",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "60",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Aalu Pyaz Paratha",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "70",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Mix Paratha",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "70",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Paratha",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "80",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Thali Combos",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Mini Meal",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Dal, Laccha Paratha, Roti, Rice and Salad.",
+              "offers": {
+                "@type": "Offer",
+                "price": "120",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Special Meal",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Dal, Laccha Paratha, Roti, Paneer, Raita, Jeera Rice and Salad.",
+              "offers": {
+                "@type": "Offer",
+                "price": "199",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Chhole Bhature",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "House special chhole bhature.",
+              "offers": {
+                "@type": "Offer",
+                "price": "80",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paneer Chhole Bhature",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "110",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Pizzas",
+          "hasMenuItem": [
+            {
+              "@type": "MenuItem",
+              "name": "Margherita Pizza",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Mozzarella cheese and cheese blend.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "90",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "179",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "279",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Cheese & Tomato",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Mozzarella cheese and tomato.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "99",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "179",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "279",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Onion Capsicum",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Onion and capsicum.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "109",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "199",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "299",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Onion Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Onion and paneer.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "129",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "219",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "349",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Cheese Corn",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Cheese and corn.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "119",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "229",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "329",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Paprika Onion",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Red paprika and onion.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "119",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "229",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "329",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Spicy Tango",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Corn, jalapeño and red paprika.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "139",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "249",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "369",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Spicy Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Capsicum, red paprika and paneer.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "149",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "269",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "399",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Veggie Blast",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Onion, capsicum, tomato, jalapeño and Mexican herbs.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "149",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "269",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "399",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Tandoori Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Onion, capsicum, paneer and corn.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "159",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "289",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "429",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Makhani Paneer",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "description": "Paneer and veggies on makhani sauce.",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "price": "169",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Regular"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "299",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Medium"
+                },
+                {
+                  "@type": "Offer",
+                  "price": "449",
+                  "priceCurrency": "INR",
+                  "availability": "https://schema.org/InStock",
+                  "name": "Large"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "url": "https://elitehorn.github.io/grillzofpunjab/#menu"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://elitehorn.github.io/grillzofpunjab/#website",
+      "url": "https://elitehorn.github.io/grillzofpunjab/",
+      "name": "Grillz of Punjab",
+      "alternateName": "Grillz of Punjab Restro and Cafe",
+      "inLanguage": [
+        "en-IN",
+        "hi-IN"
+      ],
+      "description": "Official website of Grillz of Punjab, a pure veg restro and cafe in Dhampur, Bijnor.",
+      "publisher": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+      },
+      "about": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+      },
+      "copyrightHolder": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+      },
+      "copyrightYear": 2026
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://elitehorn.github.io/grillzofpunjab/#webpage",
+      "url": "https://elitehorn.github.io/grillzofpunjab/",
+      "name": "Grillz of Punjab | Pure Veg Restaurant in Dhampur",
+      "description": "Pure veg Indian, tandoori and Chinese restaurant in Dhampur, Bijnor. Menu, hours, directions, and free delivery above Rs. 499.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#website"
+      },
+      "about": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#restaurant"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://elitehorn.github.io/grillzofpunjab/assets/og-image.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": {
+        "@id": "https://elitehorn.github.io/grillzofpunjab/#breadcrumb"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".lede",
+          "#story-title",
+          ".story-copy p",
+          ".faq-item"
+        ]
+      },
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://elitehorn.github.io/grillzofpunjab/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://elitehorn.github.io/grillzofpunjab/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Menu",
+          "item": "https://elitehorn.github.io/grillzofpunjab/#menu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Visit",
+          "item": "https://elitehorn.github.io/grillzofpunjab/#visit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Contact",
+          "item": "https://elitehorn.github.io/grillzofpunjab/#contact"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://elitehorn.github.io/grillzofpunjab/#faq",
+      "url": "https://elitehorn.github.io/grillzofpunjab/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Grillz of Punjab a pure vegetarian restaurant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Grillz of Punjab is a 100% pure vegetarian restro and cafe in Dhampur. The full menu — tandoori starters, chaap, paneer, Chinese, pizza, thali and cafe drinks — is vegetarian."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Grillz of Punjab in Dhampur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grillz of Punjab is opposite Axis Bank, near Punjabi Colony, Dhampur, District Bijnor, Uttar Pradesh 246761. It is a short ride from Dhampur Railway Station."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the opening hours of Grillz of Punjab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grillz of Punjab is open daily from 12:00 PM to 11:00 PM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Grillz of Punjab offer home delivery in Dhampur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Free home delivery is available on orders above Rs. 499. Call or WhatsApp +91 63953 66055 or +91 74549 51842 to place an order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What food does Grillz of Punjab serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kitchen serves Indian and Punjabi tandoori dishes, Chinese, pizza, burgers, thali combos and cafe drinks. Signature plates include paneer tikka, malai chaap, special meal thali and chhole bhature."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I order from Grillz of Punjab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call +91 63953 66055 or WhatsApp the same number. A second line, +91 74549 51842, is available for delivery."
+          }
+        }
+      ]
+    }
+  ]
+}

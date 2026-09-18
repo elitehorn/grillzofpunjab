@@ -1,0 +1,13 @@
+/* TEAM */
+Designer & Developer: Garvit Rajput
+Contact: +91 95204 47284
+From: Dhampur, Uttar Pradesh, India
+
+/* SITE */
+Name: Grillz of Punjab
+Kind: Pure veg restro and cafe
+Place: Opposite Axis Bank, Near Punjabi Colony, Dhampur, District Bijnor, Uttar Pradesh 246761
+Standards: HTML5, CSS3, JSON-LD
+Language: English / Hindi
+Doctype: HTML5
+Last update: 2026/09/18
