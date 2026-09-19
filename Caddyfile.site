@@ -1,5 +1,5 @@
 # Grillz of Punjab site block — merge into /etc/caddy/Caddyfile
-# Direct address-bar visits to JS/CSS/JSON return 404.
+# Direct address-bar visits to JS/CSS and non-page online-order paths return 404.
 # <script> and <link> still load because Sec-Fetch-Dest is script/style.
 
 grillzofpunjab.com, www.grillzofpunjab.com {
@@ -18,10 +18,19 @@ grillzofpunjab.com, www.grillzofpunjab.com {
 	header @noindex X-Robots-Tag "noindex, nofollow"
 
 	@direct_asset {
-		path *.js *.css *.json *.map *.webmanifest
+		path *.js *.css *.map *.webmanifest
 		header Sec-Fetch-Dest document
 	}
 	error @direct_asset 404
+
+	# Only /online-order/ and /online-order/index.html open as pages.
+	# Direct visits to other files under /online-order/ return 404.
+	@direct_online_order {
+		path /online-order/*
+		not path /online-order/ /online-order/index.html
+		header Sec-Fetch-Dest document
+	}
+	error @direct_online_order 404
 
 	handle_errors {
 		rewrite * /404.html
@@ -29,6 +38,6 @@ grillzofpunjab.com, www.grillzofpunjab.com {
 	}
 
 	file_server {
-		hide .git* .nojekyll *.json
+		hide .git* .nojekyll schema.json order.js
 	}
 }

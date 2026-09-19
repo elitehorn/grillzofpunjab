@@ -2079,6 +2079,32 @@
       "combo_components": []
     },
     {
+      "id": "eda94d44-304f-40ff-9e1c-7a7d9e1ae363",
+      "category_id": "43bd51e0-fa29-46fe-abf9-01b445cc8d58",
+      "sku": "RT-060B",
+      "barcode": null,
+      "name": "Butter Roti",
+      "kitchen_name": "Butter Roti",
+      "description": "Everyday breads",
+      "base_price": 15,
+      "tax_rate": 5,
+      "hsn_code": null,
+      "item_type": "item",
+      "station": "Tandoor",
+      "active": true,
+      "available": true,
+      "dine_in": true,
+      "takeaway": true,
+      "zomato": true,
+      "sort_order": 61,
+      "image_path": null,
+      "variants": [],
+      "modifier_group_ids": [
+        "8945eebf-1d71-4830-a144-d74a1d4baa3d"
+      ],
+      "combo_components": []
+    },
+    {
       "id": "3c1cee77-a68a-4da8-9d3e-1f6c436be6b0",
       "category_id": "43bd51e0-fa29-46fe-abf9-01b445cc8d58",
       "sku": "RT-061",
@@ -2096,7 +2122,7 @@
       "dine_in": true,
       "takeaway": true,
       "zomato": true,
-      "sort_order": 61,
+      "sort_order": 62,
       "image_path": null,
       "variants": [],
       "modifier_group_ids": [

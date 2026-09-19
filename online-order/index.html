@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Order online | Grillz of Punjab</title>
+    <meta
+      name="description"
+      content="Order vegetarian food from Grillz of Punjab, Dhampur. Add items, share your location, and send the order on WhatsApp."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://grillzofpunjab.com/online-order/" />
+    <link rel="icon" href="../assets/logo.png" type="image/png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Oswald:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="order.css?v=14" />
+  </head>
+  <body>
+    <a class="skip-link" href="#menu" data-i18n="skip">Skip to menu</a>
+
+    <div class="order-top" id="order-top">
+      <header class="order-header">
+        <div class="order-header-inner">
+          <a class="brand" href="/" aria-label="Grillz of Punjab home">
+            <img src="../assets/logo.png" alt="" width="48" height="48" />
+            <span>
+              <strong class="wordmark">
+                <span class="wordmark-of">Grillz of</span>
+                <span class="wordmark-punjab" aria-label="Punjab">
+                  <span>P</span><span>U</span><span>N</span><span>J</span><span>A</span><span>B</span>
+                </span>
+              </strong>
+              <em>Restro and Cafe</em>
+            </span>
+          </a>
+          <div class="header-badges">
+            <button type="button" class="lang-toggle" id="lang-toggle" aria-pressed="false">
+              हिं
+            </button>
+            <span class="veg-pill" aria-label="Pure vegetarian" data-i18n="veg">Pure Veg</span>
+          </div>
+        </div>
+        <p class="loc-chip" id="loc-chip" aria-live="polite">Finding your area… Delivery within 2 km</p>
+      </header>
+      <nav class="cat-tabs" id="cat-tabs" aria-label="Menu categories" data-i18n-aria="catsAria"></nav>
+    </div>
+
+    <main id="menu">
+      <p class="menu-status" id="menu-status" data-i18n="loading">Loading menu…</p>
+      <div id="menu-root"></div>
+    </main>
+
+    <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+    <section class="sheet" id="checkout-sheet" aria-labelledby="checkout-title" hidden>
+      <h2 id="checkout-title" data-i18n="checkoutTitle">Your details</h2>
+      <p class="sheet-lead" data-i18n="checkoutLead">We send this order to the restaurant on WhatsApp.</p>
+      <form id="checkout-form">
+        <label>
+          <span data-i18n="name">Your name</span>
+          <input id="customer-name" name="name" type="text" autocomplete="name" required maxlength="80" />
+        </label>
+        <label>
+          <span data-i18n="phone">Mobile number</span>
+          <input
+            id="customer-phone"
+            name="phone"
+            type="tel"
+            inputmode="numeric"
+            autocomplete="tel"
+            required
+            maxlength="10"
+            pattern="[6-9][0-9]{9}"
+            data-i18n-placeholder="phonePh"
+            placeholder="10-digit mobile"
+          />
+        </label>
+        <div class="loc-block">
+          <p class="loc-label" data-i18n="area">Current area</p>
+          <p class="loc-status" id="sheet-loc-status">Finding your area…</p>
+          <button type="button" class="btn-ghost" id="retry-location" data-i18n="useLocation">Use current location</button>
+          <label>
+            <span data-i18n="address">Complete address</span>
+            <textarea
+              id="customer-address"
+              name="address"
+              rows="3"
+              maxlength="200"
+              required
+              data-i18n-placeholder="addressPh"
+              placeholder="House no., street, landmark"
+            ></textarea>
+          </label>
+          <p class="addr-hint" data-i18n="addressHint">City is filled for you. Add house, street and landmark.</p>
+          <label>
+            <span data-i18n="notes">Special notes</span>
+            <textarea
+              id="customer-notes"
+              name="notes"
+              rows="2"
+              maxlength="200"
+              data-i18n-placeholder="notesPh"
+              placeholder="Less spicy, no onion, extra packing…"
+            ></textarea>
+          </label>
+        </div>
+        <p class="form-error" id="form-error" hidden></p>
+        <button type="submit" class="btn-order" data-i18n="sendWhatsApp">Send order on WhatsApp</button>
+      </form>
+    </section>
+
+    <div class="loc-gate" id="loc-gate" hidden>
+      <div class="loc-gate-card" role="dialog" aria-modal="true" aria-labelledby="loc-gate-title">
+        <h2 id="loc-gate-title" data-i18n="locGateTitle">Turn on location</h2>
+        <p data-i18n="locGateLead">We deliver only within 2 km. Your phone location must be on to place an order.</p>
+        <p class="loc-gate-hint" data-i18n="locGateHint">Open phone Settings, turn Location on, then tap the button.</p>
+        <button type="button" class="btn-order" id="loc-gate-btn" data-i18n="locGateBtn">Turn on location</button>
+      </div>
+    </div>
+
+    <div class="order-bar" id="order-bar">
+      <div class="order-bar-meta">
+        <strong id="bar-count">0 items</strong>
+        <span id="bar-total">₹0</span>
+      </div>
+      <button type="button" class="btn-order" id="order-now" disabled data-i18n="orderNow">Order Now</button>
+    </div>
+
+    <script src="menu-data.js?v=2"></script>
+    <script src="i18n.js?v=4"></script>
+    <script src="order.min.js?v=17"></script>
+  </body>
+</html>

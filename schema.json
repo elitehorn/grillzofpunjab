@@ -162,7 +162,7 @@
         }
       ],
       "sameAs": [
-        "https://www.zomato.com/dhampur/grillz-of-punjab-dhampur-locality",
+        "https://link.zomato.com/xqzv/rshare?id=14037805730563d6c",
         "https://www.instagram.com/grillzofpunjab_dhampur/",
         "https://www.google.com/maps/place/Grillz+of+Punjab/@29.3105182,78.5063213,17z/data=!4m6!3m5!1s0x390bc93e9f3c8991:0x8ad53d85c044c5cb!8m2!3d29.3105182!4d78.5063213!16s%2Fg%2F11z8m25y0_"
       ]
@@ -1112,6 +1112,17 @@
               "offers": {
                 "@type": "Offer",
                 "price": "10",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock"
+              }
+            },
+            {
+              "@type": "MenuItem",
+              "name": "Butter Roti",
+              "suitableForDiet": "https://schema.org/VegetarianDiet",
+              "offers": {
+                "@type": "Offer",
+                "price": "15",
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock"
               }
